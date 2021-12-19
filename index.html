@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EducaBrasil</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <nav class="nav d-flex">
+        <a href="#" class="logo">
+          <h2 class="logo">EducaBrasil</h2>
+        </a>
+        <!-- Toggle bar -->
+        <div class="burger">
+          <div class="toggle-open">
+            <img src="assets/images/toggle-open.svg" alt="toggle open">
+          </div>
+          <div class="toggle-close">
+            <img src="assets/images/toggle-close.svg" alt="toggle close">
+          </div>
+        </div>
+        <div class="navigation-bar">
+          <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#teaching">Ensino</a></li>
+            <li><a href="#about">Sobre nós </a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#">Cadastre-se</a></li>
+            <li><a href="#" class="btn ">Entrar</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- home -->
+    <section class="home d-flex" id="home">
+      <img class="home-image" src="assets/images/home.jpg" alt="home">
+      <div class="container">
+        <div class="home-wrapper">
+          <div class="col">
+            <h2>Educação em <br>
+              primeiro lugar</h2>
+            <p>Nosso objetivo é proporcionar o seu aprendizado. </p>
+            <a href="#" class="btn">Cadastre-se</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brand -->
+    <section class="brand pt-100">
+      <div class="container">
+        <div class="brand-wrapper d-flex">
+          <img src="assets/images/Brand-logos/rocketseat.svg" alt=" brand logo rocketseat">
+          <img src="assets/images/Brand-logos/dowhile.svg" alt=" brand logo dowhile">
+          <img src="assets/images/Brand-logos/ifood.svg" alt=" brand logo ifood">
+          <img src="assets/images/Brand-logos/riachuelo.svg" alt=" brand logo riachuelo">
+        </div>
+
+      </div>
+    </section>
+    <!-- Teaching -->
+    <section class="teaching ptb-100" id="teaching">
+      <div class="container">
+        <!-- section title -->
+        <div class="title-section">
+          <h2>Ensino</h2>
+          <p>Temos uma variedade de cursos para você aprender de maneira simplificada e atrativa, uma biblioteca
+            vasta para pesquisas e um ambiente de estudo em grupo virtual. </p>
+        </div>
+        <div class="teaching-wrapper d-flex">
+          <!-- Course item -->
+          <div class="teaching-item">
+            <img src="assets/images/curso.jpg" alt="course image" class="img-fluid">
+            <div class="teaching-content ">
+              <h3 class="d-flex">Todos cursos são gratuitos </h3>
+            </div>
+          </div>
+          <!-- Library item -->
+          <div class="teaching-item">
+            <img src="assets/images/biblioteca.jpg" alt="library image" class="img-fluid">
+            <div class="teaching-content ">
+              <h3 class="d-flex">Acesse nossa biblioteca </h3>
+            </div>
+          </div>
+          <!-- Group study item -->
+          <div class="teaching-item">
+            <img src="assets/images/estudo.png" alt="study image" class="img-fluid">
+            <div class="teaching-content ">
+              <h3 class="d-flex">Acesse o ambiente de estudo</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about " id="about">
+      <div class="container">
+        <div class="aboutus-wrapper d-flex">
+          <div class="aboutus-img">
+            <img src="assets/images/quem-somos.png" alt="about image" class="img-fluid">
+          </div>
+          <div class="aboutus-content">
+            <h2>Quem Somos</h2>
+            <p>Acreditamos que o papel da tecnologia na educação é tornar o ensino mais atrativo para as pessoas. </p>
+            <p>Aqui aproximamos as pessoas do conteúdo lecionado e também de seus colegas através da plataforma virtual
+              de estudos. </p>
+
+            <a href="#" class="btn">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact ptb-100" id="contact">
+      <div class="container">
+        <!-- section title -->
+        <div class="title-section">
+          <h2>Contato</h2>
+          <p>Preencha os campos abaixo e enviaremos mais informações sobre o projeto.</p>
+        </div>
+        <div class="contact-wrapper d-flex">
+          <input type="text" placeholder="Nome" name="name">
+          <br>
+          <input type="e-mail" placeholder="E-mail" name="password">
+          <a href="#" class="btn">Enviar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="pt-100">
+    <div class="container">
+      <a href="#home">
+        <h3>EducaBrasil</h3>
+      </a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Cursos</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Cadastre-se</a></li>
+      </ul>
+      <div class="copyright">
+        <h4>Fabio de Moura Martins</h4>
+      </div>
+    </div>
+  </footer>
+  <!-- Scroll up -->
+  <a href="javascript:void(0)" class="scrollup show">
+    <img src="assets/images/arrow-up.svg" alt="arrow up">
+  </a>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/gumshoe/dist/gumshoe.polyfills.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
